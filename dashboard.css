@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bcea7f;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.latest-updates, .price-trends, .notifications {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.updates-list, .notifications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.updates-list li, .notifications-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.updates-list li:last-child, .notifications-list li:last-child {
+    border-bottom: none;
+}
+
+.price-trends img {
+    width: 100%;
+    height: auto;
+}
+
+.notifications li {
+    color: #d9534f; 
+}
+
+.notifications li.price-drop {
+    color: #5cb85c; 
+}
+
+.navBar {
+    background-color: #333; 
+    color: white;
+    padding: 10px 20px;
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.navBar li {
+    padding: 8px 12px; 
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.navBar a:hover {
+    text-decoration: underline; 
+    
+}

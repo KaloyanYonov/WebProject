@@ -1,0 +1,28 @@
+.search-analysis {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.search-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    margin-right: 10px;
+}
+
+.search-form input, .search-form select {
+    margin-right: 20px;
+}
+
+.results {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
