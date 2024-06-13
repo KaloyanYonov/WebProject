@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #afb0ac;
+    background-color: #FFFDD0;
     color: black;
     margin: 0;
     padding: 0;
 }
 
 .navBar {
-    background-color: #b9caa2; 
+    background-color: #4B0082; 
     color: white;
     padding: 10px 20px;
 }
@@ -40,7 +40,7 @@ footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: rgb(147, 164, 172);
+    background-color: #E6E6FA;
     height: 100%;
     width: 100%;
 }
