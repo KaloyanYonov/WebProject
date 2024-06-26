@@ -1,0 +1,50 @@
+.form-container {
+    background-color: #717070;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-COLOR : #B2DAE6;
+    background-size: cover;
+    background-position: center;
+    max-width: 40%;
+    max-height: 30%;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+
+
+h2 {
+    color : black;
+    font-family: verdana;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    color: black;
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="password"] {
+    color: BLACK;
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #BC7CDE;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #db04ac;
+}
