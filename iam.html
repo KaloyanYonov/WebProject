@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>SC3 Service Analysis</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="service.css">
+
+    <script src="service.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "navBar">
+                <ul>
+                    <li><a href="dashboard.html">Main Page</a></li>
+                    <li><a href="recommendations.html">Recommendations</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="service-page">
+        <div class="diagram">
+            <img src="path_to_iam_diagram.png" alt="Diagram">
+        </div>
+        <div class="search-analysis">
+            <h1>Search & Analysis for IAM</h1>
+            <form class="search-form">        
+                <select id="region-iam" name="region">
+                    <option value="eu-center">EU Central</option>
+                    <option value="eu-east">EU East</option>
+                    <option value="eu-west">EU West</option>
+                    
+                </select>
+                <label for="time-period-iam">Time Period:</label>
+                <select id="time-period-iam" name="time-period">
+                    <option value="yesterday">Yesterday</option>
+                    <option value="last-week">Last Week</option>
+                    <option value="last-month">Last Month</option>
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
